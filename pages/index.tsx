@@ -1,4 +1,6 @@
 import type { NextPage } from 'next'
+import { faCoffee, faHouse, faImage, faBars, faMagnifyingGlass, faEllipsis, faBell } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -17,6 +19,7 @@ const Home: NextPage = () => {
         <footer className={styles.footer}>
           <Link href={'https://github.com/cafecodingir/next-cafe'}>مخزن</Link>
         </footer>
+
       </div>
     </Master>
   )
