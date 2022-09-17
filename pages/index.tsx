@@ -13,13 +13,9 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <main className={styles.main}>
           <a className="btn btn-primary">سلام دنیا</a>
-          ترکیبی از nextjs و daisyUI با فونت فارسی
+          <p className="mt-3"> ترکیبی از nextjs و daisyUI با فونت فارسی</p>
+          <p className="mt-3 text-xs text-green-500 hidden lg:block">جهت مشاهده ظاهر ریسپانسیو سایز صفحه را تغییر دهید</p>
         </main>
-
-        <footer className={styles.footer}>
-          <Link href={'https://github.com/cafecodingir/next-cafe'}>مخزن</Link>
-        </footer>
-
       </div>
     </Master>
   )

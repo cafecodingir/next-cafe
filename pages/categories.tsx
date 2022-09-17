@@ -5,7 +5,9 @@ export default function Login() {
   return (
     <Master>
       <div className={styles.container}>
-        <main className={styles.main}>دسته بندی</main>
+        <main className={styles.main}>
+          <p>دسته بندی</p>
+        </main>
       </div>
     </Master>
   )
